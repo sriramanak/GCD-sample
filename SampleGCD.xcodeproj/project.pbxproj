@@ -15,6 +15,7 @@
 		8A3CDF7919DA82770046639E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3CDF7819DA82770046639E /* Images.xcassets */; };
 		8A3CDF7C19DA82770046639E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3CDF7A19DA82770046639E /* LaunchScreen.xib */; };
 		8A3CDF8819DA82770046639E /* SampleGCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3CDF8719DA82770046639E /* SampleGCDTests.m */; };
+		8A3CDF9319DA84E40046639E /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3CDF9219DA84E40046639E /* MainTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		8A3CDF8119DA82770046639E /* SampleGCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleGCDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3CDF8619DA82770046639E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A3CDF8719DA82770046639E /* SampleGCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleGCDTests.m; sourceTree = "<group>"; };
+		8A3CDF9119DA84E40046639E /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		8A3CDF9219DA84E40046639E /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				8A3CDF7219DA82770046639E /* ViewController.h */,
 				8A3CDF7319DA82770046639E /* ViewController.m */,
 				8A3CDF7519DA82770046639E /* Main.storyboard */,
+				8A3CDF9119DA84E40046639E /* MainTableViewController.h */,
+				8A3CDF9219DA84E40046639E /* MainTableViewController.m */,
 				8A3CDF7819DA82770046639E /* Images.xcassets */,
 				8A3CDF7A19DA82770046639E /* LaunchScreen.xib */,
 				8A3CDF6F19DA82770046639E /* SampleGCD.xcdatamodeld */,
@@ -225,6 +230,7 @@
 				8A3CDF6E19DA82770046639E /* AppDelegate.m in Sources */,
 				8A3CDF6B19DA82770046639E /* main.m in Sources */,
 				8A3CDF7419DA82770046639E /* ViewController.m in Sources */,
+				8A3CDF9319DA84E40046639E /* MainTableViewController.m in Sources */,
 				8A3CDF7119DA82770046639E /* SampleGCD.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
